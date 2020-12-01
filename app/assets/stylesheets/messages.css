@@ -1,0 +1,51 @@
+/* #サイドバーを横並び */
+.wrapper {
+  display: flex;
+}
+
+/* ＃サイドバーの色と高さ */
+.side-bar {
+  background-color: #253141;
+  width: 300px;
+  height: 100vh;
+}
+
+/* サイドバー左上の仕様 */
+.side-bar-header {
+  height: 100px;
+  padding: 0 20px;
+}
+
+/* サイドバー左下の仕様 */
+.rooms {
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+}
+
+/* ＃チャット画面全体の仕様 */
+.chat {
+  background-color: #ffffff;
+  width: calc(100vw - 300px);
+}
+
+
+/* ＃チャット画面右上の仕様 */
+.chat-header {
+  height: 100px;
+  padding: 0 40px;
+}
+
+/* ＃チャット画面真ん中の仕様 */
+.messages {
+  background-color: #FAFAFA;
+  height: calc(100vh - 100px - 90px);
+  padding: 46px 40px 0;
+}
+
+/* #チャット画面右下の仕様 */
+.form {
+  background-color: #dddddd;
+  height: 90px;
+  padding: 20px 40px;
+}
